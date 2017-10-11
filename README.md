@@ -1,5 +1,6 @@
 # Based on  Wire™
 
+[bot-sdk-node](https://github.com/wireapp/bot-sdk-node/)
 
 This repository is part of the source code of Wire. You can find more information at [wire.com](https://wire.com) or by contacting opensource@wire.com.
 
