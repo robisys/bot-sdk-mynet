@@ -5,9 +5,9 @@
   "main": "lib/service.js",
   "private": true,
   "scripts": {
-    "test": "node test/t_otr_manager.js",
-    "start": "node example/echo_assets_bot.js",
-    "run2": "node run example/echo_text_bot.js",
+    "test": "npm run run3 & run2 ",
+    "run3": "node example/echo_assets_bot.js",
+    "run2": "node example/echo_text_bot.js",
     "run1": "node test/t_service.js"
   },
   "repository": {
