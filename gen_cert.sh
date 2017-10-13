@@ -19,4 +19,4 @@ openssl pkcs12 -export -name $CSR_NAME -in $CERTS_DIR/cert.pem -inkey $CERTS_DIR
 keytool -importkeystore -noprompt -destkeystore $CERTS_DIR/$KEYSTORE_FILE -srckeystore $CERTS_DIR/keystore.p12 -srcstorepass $KEYSTORE_PASSWORD -storepass $KEYSTORE_PASSWORD -srcstoretype pkcs12 -alias $CSR_NAME
 
 cp $CERTS_DIR/privkey.pem $CERTS_DIR/server.key
-cp $CERTS_DIR/cert.pem $CERTS_DIR/server.key
+cp $CERTS_DIR/cert.pem $CERTS_DIR/server.cert
