@@ -5,9 +5,8 @@
 # mytest
 [wire-webapp-dev](https://github.com/wireapp/wire-webapp-dev/)  
 
-npm install
-
-npm start
+  npm install
+  npm start
 
 # bot-sdk-node
 
