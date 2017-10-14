@@ -44,7 +44,38 @@ class Service {
 
       cert: fs.readFileSync(options.cert) }, (req, res) => {
 */
+  let data = [];
+  data = Buffer.concat(data).toString();
+  service= [] ;
+  mimeType = "";
+  meta = "";
+  cb = [] ;
+  assetID = "id ";
+  assetToken = "token";
+  /*
+  method = [];
+  path = "list.";
+  additionalHeaders = [];
+*/
+
   console.log("t_fileservice: start");
   fs.readFileSync("server.crt");
-  console.log("aktiv");
+  console.log("");
+  
+  const botInstance = new BotInstance(data.id,service);
+  
+  const httpsClient = new HttpsClient(data.token);
+  console.log("t_fileservice: ");
+  
+  //console.log("t_fileservice: botInstance.sendImage ");
+  //botInstance.sendImage(data,mimeType,cb);
+  
+  //console.log("t_fileservice: httpsClient.sendRequest ");
+  //httpsClient.sendRequest(method, path, data, additionalHeaders, cb)
+  
+  console.log("t_fileservice: httpsClient.getAsset");
+  httpsClient.getAsset(assetID,assetToken,cb) ;
+  
+  console.log("t_fileservice: ende");
+  
   
