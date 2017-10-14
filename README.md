@@ -92,3 +92,7 @@ Use `sendMessage` to send message back to user
 ```javascript
 bot.sendMessage(message, (sendStatus) => {});
 ```
+
+
+# tools
+[keytool-doc](https://alvinalexander.com/java/java-keytool-keystore-certificates)
