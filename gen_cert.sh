@@ -10,6 +10,11 @@ CSR_NAME="myservercert"
 KEYSTORE_PASSWORD="pw123456"
 KEYSTORE_FILE="keystore.jks"
 
+#openssl genrsa -out server.key 4096
+#openssl req -new -key server.key -out csr.pem
+#openssl x509 -req -days 7300 -in csr.pem -signkey server.key -out server.crt
+#openssl rsa -in server.key -pubout -out pubkey.pem
+
 mkdir -p $CERTS_DIR
 openssl genrsa -out $CERTS_DIR/privkey.pem 4096
 openssl req -new -subj "/C=$CSR_COUNTRY/ST=$CSR_STATE/L=$CSR_LOCALITY/O=$CSR_ORGANISATION/CN=$CSR_COMMON" -key $CERTS_DIR/privkey.pem -out $CERTS_DIR/csr.pem
