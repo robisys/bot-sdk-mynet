@@ -13,6 +13,39 @@ rm csr.pem
  
  
  */
+// http://node.readthedocs.io/en/latest/api/https/
+/*
+var https = require('https');
+
+var options = {
+  hostname: 'encrypted.google.com',
+  port: 443,
+  path: '/',
+  method: 'GET'
+};
+
+var req = https.request(options, function(res) {
+  console.log("statusCode: ", res.statusCode);
+  console.log("headers: ", res.headers);
+
+  res.on('data', function(d) {
+    process.stdout.write(d);
+  });
+});
+req.end();
+
+req.on('error', function(e) {
+  console.error(e);
+});
+
+
+
+
+
+
+
+*/
+
 
 var https = require('https');
 var fs = require('fs');
