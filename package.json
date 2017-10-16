@@ -32,7 +32,7 @@
   },
   "dependencies": {
     "base64-arraybuffer": "^0.1.5",
-    "cryptobox": "git+https://github.com/wireapp/bot-sdk-node.git",
+    "cryptobox": "git+https://github.com/wireapp/wire-webapp-cryptobox.git",
     "follow-redirects": "^1.2.1",
     "protocol-buffers": "^3.2.1",
     "uuid": "^3.0.1",
