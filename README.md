@@ -10,6 +10,10 @@
      npm install
      npm start
      
+ ## Build Status
+
+[![Build Status](https://travis-ci.org/wireapp/wire-webapp-cryptobox.svg?branch=master)](https://travis-ci.org/wireapp/wire-webapp-cryptobox)
+    
 
 # bot-sdk-node
 
