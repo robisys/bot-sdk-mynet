@@ -104,3 +104,5 @@ var data = ["aa","bbb"];
         (preKeys) => {  resolve([otr, preKeys]); }
 
  */
+ console.log("t_otrmanager: ende");
+
