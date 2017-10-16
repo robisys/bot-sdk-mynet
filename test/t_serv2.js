@@ -77,6 +77,9 @@ app.get('/hey', function(req, res) {
 app.post('/ho', function(req, res) {
     res.send('HO!');
 });
+
+/*
+
 Hmmm what be those .pem files? Those are the associated SSL certificates for your HTTPS web server. Read up: How to create SSL certificates for Node.js.
 And here is the code for the TLS client:
 var PORT = 8000;
@@ -115,7 +118,7 @@ client.on('data', function(data) {
     console.log('-------------');
     console.log(data);
 });
-// */
+ */
 // http://book.mixu.net/node/ch10.html
 
 //https://forge.autodesk.com/blog/enable-https-local-nodejs
