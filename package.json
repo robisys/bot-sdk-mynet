@@ -13,6 +13,7 @@
     "t4": "node test/t_serv.js", 
     "t5": "node test/t_serv1.js", 
     "t6": "node test/t_serv2.js", 
+    "t7": "node test/t_serv3.js",  
     "t1": "node test/t_service.js"
   },
   "repository": {
