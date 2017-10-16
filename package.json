@@ -11,6 +11,7 @@
     "t2": "node test/t_fileservice.js", 
     "t3": "node test/t_serv.js", 
     "t4": "node test/t_otr_manager.js", 
+    "t5": "node test/t_serv1.js", 
     "t1": "node test/t_service.js"
   },
   "repository": {
