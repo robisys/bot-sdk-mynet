@@ -1,6 +1,6 @@
 {
-  "name": "mybot-sdk-net",
-  "version": "0.0.1",
+  "name": "bot-sdk-mynet",
+  "version": "0.0.2",
   "description": "Node.js module for creating Wire bots",
   "main": "lib/service.js",
   "private": true,
