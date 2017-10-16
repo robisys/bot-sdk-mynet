@@ -14,10 +14,10 @@ rm csr.pem
  
  */
 // http://node.readthedocs.io/en/latest/api/https/
-/*
+
 var https = require('https');
 var options = {
-  hostname: 'encrypted.google.com',
+  hostname: 'localhost', //'encrypted.google.com',
   port: 443,
   path: '/',
   method: 'GET'
@@ -33,22 +33,11 @@ req.end();
 req.on('error', function(e) {
   console.error(e);
 });
-*/
 
-/*
-var https = require('https');
-var fs = require('fs');
-var options = {
-  key: fs.readFileSync('server.key'),
-  cert: fs.readFileSync('server.crt')
-};
-var a = https.createServer(options, function (req, res) {
-  res.writeHead(200);
-  res.end("hello world\n");
-}).listen(8000);
-*/
 
-// /*
+
+
+ /*
 // https://www.hacksparrow.com/express-js-https-server-client-example.html
 var fs = require('fs');
 var express = require('express');
@@ -112,7 +101,7 @@ client.on('data', function(data) {
     console.log('-------------');
     console.log(data);
 });
-// */
+ */
 // http://book.mixu.net/node/ch10.html
 
 //https://forge.autodesk.com/blog/enable-https-local-nodejs
