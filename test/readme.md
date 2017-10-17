@@ -16,6 +16,7 @@
  
  [readthedocs](http://node.readthedocs.io/en/latest/api/https/)
  
+ [express-bsp](https://www.hacksparrow.com/express-js-https-server-client-example.html)
  
 
 [mixz](http://book.mixu.net/node/ch10.html)
