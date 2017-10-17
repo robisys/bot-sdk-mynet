@@ -14,7 +14,7 @@ rm csr.pem
  
  */
 // http://node.readthedocs.io/en/latest/api/https/
-
+/*
 var https = require('https');
 var options = {
   hostname: 'localhost', //'encrypted.google.com',
@@ -34,7 +34,28 @@ req.on('error', function(e) {
   console.error(e);
 });
 
+*/
+var express = require('express');
+var app = express();
+//var app = require('./server/server');
 
+// Setting up local https support
+var fs = require('fs');
+var https = require('https');
+
+var options = {
+    key: fs.readFileSync('server.key'),
+    cert: fs.readFileSync('server.crt'),
+    passphrase: '<the password you used for the certificate>',
+    requestCert: false,
+    rejectUnauthorized: false
+};
+
+// Start server
+var server = https.createServer(options, app).listen(app.get('port'), function () {
+    console.log('Starting at ' + (new Date()).toString());
+    console.log('Server listening on port ' + server.address().port);
+});
 
 
  /*
