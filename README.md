@@ -1,3 +1,8 @@
+ ## Build Status
+
+[![Build Status](https://travis-ci.org/robisys/bot-sdk-mynet.svg?branch=master)](https://travis-ci.org/robisys/bot-sdk-mynet)
+    
+
 # Based on  Wire™
 
 [bot-sdk-node](https://github.com/wireapp/bot-sdk-node/)
@@ -29,10 +34,7 @@
      npm install
      npm start
      
- ## Build Status
 
-[![Build Status](https://travis-ci.org/robisys/bot-sdk-mynet.svg?branch=master)](https://travis-ci.org/robisys/bot-sdk-mynet)
-    
 
 # bot-sdk-node
 
