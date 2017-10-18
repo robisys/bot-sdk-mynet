@@ -6,6 +6,21 @@
 
 [cryptobox](https://github.com/zenyway/cryptobox)
 
+    "base64-arraybuffer": "^0.1.5",
+    "cryptobox": "git+https://github.com/damirn/cryptobox.js.git",
+    "follow-redirects": "^1.2.1",
+    "protocol-buffers": "^3.2.1",
+    "uuid": "^3.0.1",
+    "wire-webapp-proteus": "~3.0.3"
+ 
+    "devDependencies": 
+    "eslint": "^3.13.1",
+    "eslint-config-airbnb-base": "^11.0.1",
+    "eslint-plugin-import": "^2.2.
+
+
+
+
 # mytest
 [wire-webapp-dev](https://github.com/wireapp/wire-webapp-dev/)  
 
