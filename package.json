@@ -6,7 +6,8 @@
   "private": true,
   "scripts": {
     "test1": "npm run r3 & npm run r2 ",
-    "test": "npm run t4 ",
+    "test2": "npm run t4 ",
+    "test": "echo \"Error  no test specified\" && exit 0 ",
     "r3": "node example/echo_assets_bot.js",
     "r2": "node example/echo_text_bot.js",
     "t2": "node test/t_fileservice.js", 
