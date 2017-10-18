@@ -2,7 +2,8 @@
 
 [bot-sdk-node](https://github.com/wireapp/bot-sdk-node/)
 
-[cryptobox](https://github.com/wireapp/wire-webapp-cryptobox)
+[wire cryptobox](https://github.com/wireapp/wire-webapp-cryptobox)
+[cryptobox](https://github.com/zenyway/cryptobox)
 
 # mytest
 [wire-webapp-dev](https://github.com/wireapp/wire-webapp-dev/)  
