@@ -74,7 +74,7 @@ class Service {
   //httpsClient.sendRequest(method, path, data, additionalHeaders, cb)
   
   console.log("t_fileservice: httpsClient.getAsset");
-  httpsClient.getAsset(assetID,assetToken,cb) ;
+  //httpsClient.getAsset(assetID,assetToken,cb) ;
   
   console.log("t_fileservice: ende");
   
