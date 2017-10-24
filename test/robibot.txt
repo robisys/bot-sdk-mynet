@@ -1,0 +1,24 @@
+{
+"public_keys" : [ {
+"pem" : "-----BEGIN PUBLIC KEY-----
+    -----END PUBLIC KEY-----\n",
+"type" : "rsa",
+"size" : 4096
+} ],
+"name" : "robibot",
+"description" : "robit bot test",
+"tags" : [ "tutorial" ],
+"id" : "7012fd1d-737a-4fd6-8c9a-e5d186f2df3a",
+"enabled" : false,
+"auth_tokens" : [ "mGTpqbolxHwg0qF8pPYN2i6N" ],
+"assets" : [ {
+"type" : "image",
+"key" : "3-1-893e7125-ad18-4a99-8612-871a54b2b7a5",
+"size" : "preview"
+}, {
+"type" : "image",
+"key" : "3-1-adbd13ae-a685-4c65-8e21-82e31e08f613",
+"size" : "complete"
+} ],
+"base_url" : "https://wirebot.robisys.de";
+}
