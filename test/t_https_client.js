@@ -17,20 +17,20 @@
  *
  */
 const HttpsClient = require('../lib/https_client');
-
 token= " ";
 
 const httpsclient =  new HttpsClient(token) ;
 
-/*
+req = "" ;
+   e = "";
+   cb = "";
+postData =;
+ ignoreMissing = "" ; 
+cb =  "" ;
+assetID =  "" ;
+  assetToken =  "";
+assetData = "";
 
-module.exports = class HttpsClient {
-  constructor(token) {
-    this.token = token;
-  }
-*/
-httpsclient(token);
-/*
   httpsclient.onError(req, e, cb) ;
   
 
@@ -48,5 +48,5 @@ httpsclient(token);
 
   httpsclient.uploadAsset(assetData, cb) ;
   
-*/
+
 console.log("erfolg");
