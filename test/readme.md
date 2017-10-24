@@ -10,10 +10,10 @@
  [t_serv](./t_serv.js)
  
  
-  openssl genrsa -out key.pem
-  openssl req -new -key key.pem -out csr.pem
-  openssl x509 -req -days 9999 -in csr.pem -signkey key.pem -out cert.pem
-  rm csr.pem
+     openssl genrsa -out key.pem
+     openssl req -new -key key.pem -out csr.pem
+     openssl x509 -req -days 9999 -in csr.pem -signkey key.pem -out cert.pem
+     rm csr.pem
  
  [readthedocs](http://node.readthedocs.io/en/latest/api/https/)
  
