@@ -21,6 +21,7 @@ token= " ";
 
 const httpsclient =  new HttpsClient(token) ;
 
+/*
 req = "" ;
    e = "";
    cb = "";
@@ -30,6 +31,8 @@ cb =  "" ;
 assetID =  "" ;
   assetToken =  "";
 assetData = "";
+ 
+ httpsclient;
 
   httpsclient.onError(req, e, cb) ;
   
@@ -48,5 +51,5 @@ assetData = "";
 
   httpsclient.uploadAsset(assetData, cb) ;
   
-
+*/
 console.log("erfolg");
