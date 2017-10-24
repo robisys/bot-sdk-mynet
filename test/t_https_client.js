@@ -20,7 +20,7 @@ const HttpsClient = require('../lib/https_client');
 
 token= " ";
 
-httpsclient =  new HttpsClient(token) ;
+const httpsclient =  new HttpsClient(token) ;
 
 /*
 
