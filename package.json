@@ -12,7 +12,7 @@
      "test": "npm run tr1 ", 
     "r3": "node example/echo_assets_bot.js",
     "r2": "node example/echo_text_bot.js",
-     "tr1": "node test/t_srvrun1.js", 
+     "tr1": "node test/t_servrun1.js", 
     "t2": "node test/t_fileservice.js", 
     "t3": "node test/t_otr_manager.js", 
     "t4": "node test/t_serv.js", 
