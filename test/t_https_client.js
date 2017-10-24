@@ -21,10 +21,11 @@ token= " ";
 
 const httpsclient =  new HttpsClient(token) ;
 
-/*
+/*   */
 req = "" ;
    e = "";
    cb = "";
+/*   
 postData = "";
  ignoreMissing = "" ; 
 cb =  "" ;
@@ -34,9 +35,9 @@ assetData = "";
 */ 
  httpsclient;
 
-/*
+/*   */
   httpsclient.onError(req, e, cb) ;
-  
+  /*
 
   httpsclient.sendRequest(method, path, data, additionalHeaders, cb); 
   
