@@ -31,9 +31,10 @@ cb =  "" ;
 assetID =  "" ;
   assetToken =  "";
 assetData = "";
- 
+*/ 
  httpsclient;
 
+/*
   httpsclient.onError(req, e, cb) ;
   
 
