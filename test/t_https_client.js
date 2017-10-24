@@ -29,6 +29,7 @@ module.exports = class HttpsClient {
     this.token = token;
   }
 */
+httpsclient(token);
 
   httpsclient.onError(req, e, cb) ;
   
