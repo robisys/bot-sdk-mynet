@@ -30,7 +30,7 @@ module.exports = class HttpsClient {
   }
 */
 httpsclient(token);
-
+/*
   httpsclient.onError(req, e, cb) ;
   
 
@@ -48,3 +48,5 @@ httpsclient(token);
 
   httpsclient.uploadAsset(assetData, cb) ;
   
+*/
+console.log("erfolg");
