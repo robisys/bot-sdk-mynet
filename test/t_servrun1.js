@@ -14,7 +14,8 @@
  *
  * You should have received a copy of the GNU General Public License
  * along with this program. If not, see http://www.gnu.org/licenses/.
- *
+ * 
+ *  t_servrun1.js
  */
 
 const path = require('path');
@@ -33,6 +34,8 @@ service.createService({
   auth: '1234567',
 }, (bot) => {
   console.log(`Bot instance created ${bot.botID}`);
+  /*
+  
   bot.on('message', (from, message) => {
     console.log(`Got message from ${from} text: ${message.text}`);
     bot.sendMessage(message.text.content, (sendStatus) => {
@@ -48,6 +51,8 @@ service.createService({
   bot.on('rename', (name, conversation) => {
     console.log(`Conversation ${conversation.id} renamed to ${name}`);
   });
+  */
+  
 });
   
 console.log("ende");
