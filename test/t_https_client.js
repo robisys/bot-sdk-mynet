@@ -16,8 +16,7 @@
  * along with this program. If not, see http://www.gnu.org/licenses/.
  *
  */
-
-const https = require('follow-redirects').https;
+const HttpsClient = require('./lib/https_client');
 
 token= " ";
 
