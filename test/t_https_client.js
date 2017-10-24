@@ -16,42 +16,37 @@
  * along with this program. If not, see http://www.gnu.org/licenses/.
  *
  */
+
+const path = require('path');
 const HttpsClient = require('../lib/https_client');
-token= " ";
 
-const httpsclient =  new HttpsClient(token) ;
+token= "0515";
 
-/*   */
-req = "" ;
-   e = "";
-   cb = "";
-/*   
+const httpsClient =  new HttpsClient(token) ;
+
+ 
 postData = "";
- ignoreMissing = "" ; 
-cb =  "" ;
+ignoreMissing = "" ; 
 assetID =  "" ;
-  assetToken =  "";
+assetToken =  "";
 assetData = "";
-*/ 
- httpsclient;
 
-/*   */
-  httpsclient.onError(req, e, cb) ;
-  /*
+ function cb(a,b) {   }
+ 
+ httpsClient;
+   
 
-  httpsclient.sendRequest(method, path, data, additionalHeaders, cb); 
+  //console.log("-sendMessage");
+  //httpsClient.sendMessage(postData, ignoreMissing, cb) ;
+  console.log("-getclients");
+  httpsClient.getClients(postData, cb) ;  //funktioniert
   
-  httpsclient.sendMessage(postData, ignoreMissing, cb) ;
-  
-  httpsclient.getClients(postData, cb) ;
+  //console.log("-getPrefkeys");
+  //httpsClient.getPrekeys(forUsersAndDevices, cb); 
+  console.log("-getAsset");
+  httpsClient.getAsset(assetID, assetToken, cb) ;  //funktioniert
+  console.log("-uploadAsset");
+  httpsClient.uploadAsset(assetData, cb) ;
   
 
-  httpsclient.getPrekeys(forUsersAndDevices, cb); 
-  
-  httpsclient.getAsset(assetID, assetToken, cb) ;
-  
-
-  httpsclient.uploadAsset(assetData, cb) ;
-  
-*/
 console.log("erfolg");
