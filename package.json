@@ -9,7 +9,7 @@
     "test2": "npm run t4 ",
     "testx": "echo \"Error  no test specified\" && exit 0 ",
     "testb": "echo \"Error  no test specified\" && exit 0 ",
-     "test": "npm run tr2  ", 
+     "test": "npm run tr2  & npm run t3 ", 
     "r3": "node example/echo_assets_bot.js",
     "r2": "node example/echo_text_bot.js",
     "tr1": "node test/t_servrun1.js", 
