@@ -33,7 +33,7 @@ service.createService({
   storePath: path.join(__dirname, 'store'),
   auth: '1234567',
 }, (bot) => {
-  console.log(`Bot instance created ${bot.botID}`);
+  console.log(`Bot instance created `);
   /*
   
   bot.on('message', (from, message) => {
