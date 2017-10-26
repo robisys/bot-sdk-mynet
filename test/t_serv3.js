@@ -22,6 +22,7 @@ var PORT = 8000;
 var HOST = 'localhost';
 var tls = require('tls');
 var fs = require('fs');
+
 var options = { ca: [ fs.readFileSync('./server.crt') ] };
 var client = tls.connect(PORT, HOST, options, function() {
     if (client.authorized) {
@@ -56,6 +57,7 @@ client.on('data', function(data) {
 });
 // 
 // http://book.mixu.net/node/ch10.html
+// https://github.com/mixu
 
 //https://forge.autodesk.com/blog/enable-https-local-nodejs
 //https://github.com/adamenagy/data.management-nodejs-integration.egnyte
